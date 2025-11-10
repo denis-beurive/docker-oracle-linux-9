@@ -13,7 +13,6 @@ docker build --tag oracle-linux-9 --progress=plain .
 ## Run a container
 
 ```
-SET CONTAINER_NAME="oracle-linux-9"
 docker run --security-opt seccomp=unconfined ^
            --detach ^
            --net=bridge ^
